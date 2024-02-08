@@ -30,6 +30,8 @@ public class Main {
 	                break;
 	            case "6" : tech.exitProg(); //exits the program
 	                break;
+	            default:	System.out.println("Invalid option");
+	                	break;
 	        }
 
         }while(option!="6");
